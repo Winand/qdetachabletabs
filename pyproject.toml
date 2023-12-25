@@ -1,0 +1,29 @@
+[project]
+name = "qdetachabletabs"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = "winandfx@gmail.com"},
+]
+dependencies = [
+    "qtpy>=2.4.1",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "library"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pyqt6>=6.6.1",
+]
+
+# qtpy pyright-config
+[tool.pyright.defineConstant]
+PYQT5 = false
+PYSIDE2 = false
+PYQT6 = true
+PYSIDE6 = false

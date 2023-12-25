@@ -1,4 +1,5 @@
+# qdetachabletabs
+[qtabwidget-dragging-tabs](https://github.com/shishelmishel/qtabwidget-dragging-tabs)
+ported to Python and Qt 6.
 
-QTabWidget with the draggind tabs between windows, to a separete window and back like in a browser.
-
-Made with Qt 5.12
+Allows to detach tabs as separate windows and re-attach them back.
