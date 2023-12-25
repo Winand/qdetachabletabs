@@ -3,3 +3,5 @@
 ported to Python and Qt 6.
 
 Allows to detach tabs as separate windows and re-attach them back.
+
+![](screenshot.png)
