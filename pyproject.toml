@@ -27,3 +27,7 @@ PYQT5 = false
 PYSIDE2 = false
 PYQT6 = true
 PYSIDE6 = false
+
+# see also: pylint --generate-toml-config
+[tool.pylint.main]
+extension-pkg-whitelist = ["PyQt6"]
